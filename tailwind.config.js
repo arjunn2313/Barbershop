@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         "dark-vanilla": "#DEC7A6",
+        "cultured" : "#F8F5EF"
       },
     },
   },
