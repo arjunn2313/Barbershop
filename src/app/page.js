@@ -2,6 +2,10 @@ import Image from "next/image";
 import Hero from "./components/hero/hero";
 import About from "./components/about/about";
 import Address from "./components/address/address";
+import Experience from "./components/experience/experience";
+import ChooseUs from "./components/chooseUs/chooseUs";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -17,6 +21,11 @@ export default function Home() {
           <About />
         </div>
       </div>
+
+      <Experience />
+      <ChooseUs />
+      <Contact />
+      <Footer />
     </div>
   );
 }
